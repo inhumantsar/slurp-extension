@@ -18,5 +18,13 @@
   "background": {
     "{{chrome}}.service_worker": "src/background.ts",
     "{{firefox}}.scripts": ["src/background.ts"]
-  }
+  },
+  "browser_specific_settings": {
+    "gecko_android": {
+      "update_url": "https://raw.githubusercontent.com/inhumantsar/slurp-extension/main/updates.json"
+    },
+    "gecko": {
+      "update_url": "https://raw.githubusercontent.com/inhumantsar/slurp-extension/main/updates.json"
+    }    
+  }  
 }
