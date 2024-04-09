@@ -1,12 +1,19 @@
 # Slurp Browser Extension
 
-Provides convenient a one-click method for Slurp, the plugin for Obsidian that makes it easy to save web pages as clean, easy-to-read Markdown.
+Provides convenient a one-click method for sending pages to Slurp, the plugin for Obsidian that makes it easy to save web pages as clean, easy-to-read Markdown.
 
 ## How does it work?
 
 When you click the Slurp extension button, it will grab the URL from your active tab and invoke Obsidian using its custom URI. For example, if you're looking at an article on Medium that you would like to save and click the button, it will open a new browser tab and point it at a url like `obsidian://slurp?url=https://medium.com/...`. From there, Obsidian will pass that URL to the Slurp plugin. Slurp will then read the page, strip it of irrelevant elements like ads and navbars, then convert it to Markdown and save it to your vault.
 
 If you don't already have Slurp for Obsidian, [check it out](https://github.com/inhumantsar/slurp).
+
+## Installation
+
+While the Slurp for Obsidian plugin is in the pre-release phase, the extension must be installed manually. Simply download the appropriate package below and open it with your web browser:
+
+* [Firefox](https://addons.mozilla.org/firefox/downloads/file/4262151/709cda0d800c4eacbd85-1.0.0.xpi)
+* Chrome (Soon™️)
 
 ## Roadmap
 

@@ -1,0 +1,12 @@
+{
+    "addons": {
+        "{fd6b045c-f3ea-4fd1-9967-cfc7f7c366d2}": {
+            "updates": [
+                {
+                    "version": "1.0.0",
+                    "update_link": "https://addons.mozilla.org/firefox/downloads/file/4262151/709cda0d800c4eacbd85-1.0.0.xpi"
+                }
+            ]
+        }
+    }
+}
